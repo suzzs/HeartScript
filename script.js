@@ -5,7 +5,7 @@ const output = document.getElementById("output");
 button.addEventListener("click",()=>{
     const script = input.value.trim();
     if(script){
-        output.textContent = ${script};
+        output.textContent = $`{script}`;
     }
     else{
         output.textContent = "Field cant be left empty";
@@ -28,4 +28,4 @@ toggle.addEventListener("click",()=>{
 });
 
 
-//Essai start maatra bhayo aba bholi baata khatra time dina parxa and we will give.
+//Essai start maatra bhayo aba bholi baata khatra time dina parxa and we will give.//
